@@ -70,7 +70,7 @@ public class Benchmark {
                 while (uniq.size() < n) uniq.add(rnd.nextInt(n * 10));
                 int[] random = uniq.stream().mapToInt(Integer::intValue).toArray();
                 int[] sorted = new int[n];
-                for (int i = 0; i < n; i++) sorted[i] = i;   // BST worst case
+                for (int i = 0; i < n; i++) sorted[i] = i;  
 
                 String[] orders = {"random", "sorted"};
                 int[][] data = {random, sorted};
