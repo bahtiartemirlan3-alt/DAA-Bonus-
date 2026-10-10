@@ -1,0 +1,13 @@
+structure,input_order,n,insert_ms,search_ms,delete_ms
+BST,random,100,0.004,0.004,0.004
+HashTable,random,100,0.028,0.002,0.002
+BST,sorted,100,0.012,0.012,0.001
+HashTable,sorted,100,0.020,0.001,0.001
+BST,random,1000,0.047,0.035,0.059
+HashTable,random,1000,0.112,0.013,0.014
+BST,sorted,1000,0.723,0.965,0.007
+HashTable,sorted,1000,0.049,0.010,0.021
+BST,random,10000,0.821,0.560,0.600
+HashTable,random,10000,0.449,0.081,0.108
+BST,sorted,10000,63.806,91.328,0.028
+HashTable,sorted,10000,0.150,0.020,0.038
