@@ -14,7 +14,7 @@ public class BST {
         if (root == null) { root = new Node(key); size++; return; }
         Node cur = root;
         while (true) {
-            if (key == cur.key) return;              // duplicates ignored
+            if (key == cur.key) return;             
             if (key < cur.key) {
                 if (cur.left == null) { cur.left = new Node(key); size++; return; }
                 cur = cur.left;
